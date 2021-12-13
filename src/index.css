@@ -1,1 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0d0208;
+  /* overflow: hidden; */
+}
+
+#timeline-circle {
+  --top: 50%;
+  border-radius: 50%;
+  transform: translateX(-40%);
+  top: var(--top);
+}
+
+#typewriter {
+  --length: 9;
+  --speed: 2s;
+}
+
+#typewriter.type::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0d0208;
+  animation: typewriter var(--speed) steps(var(--length)) infinite 1s;
+}
+
+#typewriter::after {
+  animation: typewriter var(--speed) steps(var(--length)) infinite 1s,
+    blink 700ms steps(2, start) infinite;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 0.45em;
+  background-color: #00ff41;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+#nav {
+  position: sticky;
+  /* top: 2rem; */
+  top: 0;
+  /* background-color: red; */
+  z-index: 100;
+  background-color: #0d0208;
+}
+
+#nav::before {
+  content: "";
+  bottom: -3rem;
+  left: 0;
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  background: linear-gradient(180deg, rgba(13, 2, 8), transparent);
+}
