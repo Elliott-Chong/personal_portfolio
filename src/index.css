@@ -8,10 +8,10 @@ body {
 }
 
 #timeline-circle {
-  --top: 50%;
   border-radius: 50%;
   transform: translateX(-40%);
-  top: var(--top);
+  position: fixed;
+  top: 60%;
 }
 
 #typewriter {
@@ -53,6 +53,11 @@ body {
   to {
     visibility: hidden;
   }
+}
+
+#typewriter-wrapper {
+  position: absolute;
+  top: 10%;
 }
 
 #nav {
