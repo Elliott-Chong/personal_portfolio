@@ -8,7 +8,7 @@ const Timeline = () => {
       <div
         id="timeline-circle"
         ref={timelineRef}
-        className="w-5 h-5 absolute bg-white"
+        className="w-5 h-5  bg-white "
       ></div>
     </div>
   );
