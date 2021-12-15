@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="lg:m-16 lg:ml-80 m-12 ml-12 flex" id="container">
+      <div className="lg:m-16 m-12 ml-12 flex" id="container">
         <Timeline />
 
         <div id="content">

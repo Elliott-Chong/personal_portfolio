@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex  px-10 p-4 items-center" id="nav">
+    <nav className="flex  px-10 p-4 items-center " id="nav">
       <div>
         <Link
           to="/"
@@ -13,10 +13,10 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="lg:hidden inline">
-        <div className="ham w-4 h-1 bg-white"></div>
-        <div className="ham"></div>
-        <div className="ham"></div>
+      <div className="lg:hidden ml-auto cursor-pointer" id="ham-wrapper">
+        <div className="ham   bg-white"></div>
+        <div className="ham   bg-white"></div>
+        <div className="ham   bg-white"></div>
       </div>
 
       <div className="links font-mono text-terminalGreen font-medium text-3xl ml-auto">
