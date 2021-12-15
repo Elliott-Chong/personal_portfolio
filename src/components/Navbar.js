@@ -3,13 +3,21 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="flex p-4 px-10 " id="nav">
-      <Link
-        to="/"
-        className="logo font-mono text-terminalGreen font-medium md:text-3xl text-2xl"
-      >
-        elliott.Chong()
-      </Link>
+    <nav className="flex  px-10 p-4 items-center" id="nav">
+      <div>
+        <Link
+          to="/"
+          className="logo font-mono text-terminalGreen font-medium md:text-3xl text-2xl"
+        >
+          elliott.Chong()
+        </Link>
+      </div>
+
+      <div className="lg:hidden inline">
+        <div className="ham w-4 h-1 bg-white"></div>
+        <div className="ham"></div>
+        <div className="ham"></div>
+      </div>
 
       <div className="links font-mono text-terminalGreen font-medium text-3xl ml-auto">
         <Link to="/about" className="lg:ml-8 hidden lg:inline">

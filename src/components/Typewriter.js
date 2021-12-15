@@ -40,7 +40,7 @@ const Typewriter = () => {
   const wrapperRef = React.useRef();
 
   return (
-    <div id="typewriter-wrapper" className={`inline-flex`} ref={wrapperRef}>
+    <div id="typewriter-wrapper" className={`inline-flex  `} ref={wrapperRef}>
       <h1
         className="ml-5 text-2xl lg:ml-12 lg:text-5xl font-mono relative text-terminalGreen"
         ref={amRef}
