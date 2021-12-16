@@ -41,8 +41,20 @@ body {
 }
 
 #typewriter-wrapper {
-  margin-bottom: 10rem;
   margin-top: 26.5rem;
+}
+.space-elle {
+  margin-bottom: 5rem;
+  margin-top: 12rem;
+}
+
+#robotics-img {
+  width: 70vw;
+  margin-top: 5rem;
+}
+
+#robotics-img.fade-in {
+  animation-delay: 500ms;
 }
 
 #typewriter::after {
@@ -70,13 +82,17 @@ body {
   }
 }
 
-#aspiration {
+#aspiration,
+#robotics-wrapper,
+#robotics-img {
   opacity: 0;
   transform: translateY(50px);
   transition: 500ms all ease-out;
 }
 
-#aspiration.fade-in {
+#aspiration.fade-in,
+#robotics-wrapper.fade-in,
+#robotics-img.fade-in {
   opacity: 1;
   transform: translateY(0);
 }
@@ -111,7 +127,11 @@ body {
   margin-left: 20rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+  .space-elle {
+    margin-bottom: 3rem;
+    margin-top: 9.5rem;
+  }
   #container {
     margin-left: 3rem;
   }
@@ -131,12 +151,16 @@ body {
     cursor: pointer;
   }
 
+  #robotics-img {
+    margin-top: 3rem;
+  }
+
   .ham:nth-child(3) {
     margin-bottom: 0;
   }
 
   #typewriter-wrapper {
-    margin-top: 24.5rem;
+    margin-top: 27.4rem;
   }
   #nav {
     padding-bottom: 2rem;

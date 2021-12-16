@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Timeline from "./components/Timeline";
 import Typewriter from "./components/Typewriter";
 import Aspiration from "./components/Aspiration";
+import Robotics from "./components/Robotics";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <div id="content">
           <Typewriter />
           <Aspiration />
+          <Robotics />
         </div>
       </div>
     </>
