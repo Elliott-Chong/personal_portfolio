@@ -4,6 +4,7 @@ import Timeline from "./components/Timeline";
 import Typewriter from "./components/Typewriter";
 import Aspiration from "./components/Aspiration";
 import Robotics from "./components/Robotics";
+import Scratch from "./components/Scratch";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Typewriter />
           <Aspiration />
           <Robotics />
+          <Scratch />
         </div>
       </div>
     </>
