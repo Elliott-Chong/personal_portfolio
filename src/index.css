@@ -41,7 +41,7 @@ body {
 }
 
 #typewriter-wrapper {
-  margin-top: 26.5rem;
+  margin-top: 46.5vh;
 }
 .space-elle {
   margin-bottom: 5rem;
@@ -160,7 +160,7 @@ body {
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
   .space-elle {
     margin-bottom: 3rem;
     margin-top: 9rem;
