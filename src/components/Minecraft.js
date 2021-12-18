@@ -24,14 +24,14 @@ const Minecraft = () => {
           triggerHook={0.7}
         >
           <div id="minecraft-img-wrapper">
-            <div className="minecraft-img lg:ml-12">
-              <img src={code} alt="minecraft code" className="ml-10 lg:ml-0" />
+            <div className="minecraft-img lg:ml-12 ml-10">
+              <img src={code} alt="minecraft code" className=" lg:ml-0" />
               <p className="description font-mono text-xl text-center">
                 a simple script I wrote to automate fishing in Minecraft
               </p>
             </div>
-            <div className="minecraft-img">
-              <img src={fish} alt="minecraft code" className="ml-5 lg:ml-12" />
+            <div className="minecraft-img lg:ml-12 ml-10">
+              <img src={fish} alt="minecraft code" className="lg:ml-0" />
             </div>
           </div>
         </Scene>
