@@ -5,6 +5,8 @@ import Typewriter from "./components/Typewriter";
 import Aspiration from "./components/Aspiration";
 import Robotics from "./components/Robotics";
 import Scratch from "./components/Scratch";
+import Minecraft from "./components/Minecraft";
+import Caeser from "./components/Caeser";
 function App() {
   return (
     <>
@@ -17,6 +19,8 @@ function App() {
           <Aspiration />
           <Robotics />
           <Scratch />
+          <Minecraft />
+          <Caeser />
         </div>
       </div>
     </>
