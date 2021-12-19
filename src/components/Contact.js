@@ -8,7 +8,6 @@ const Contact = () => {
     <>
       <footer id="contact" className="font-poppins font-medium">
         <p className="contact">Email: elliottchong16@gmail.com</p>
-        <p className="contact">Phone: +65 9045 2020</p>
         <div id="social-icons">
           <div>
             <a
