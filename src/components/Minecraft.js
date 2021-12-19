@@ -14,7 +14,7 @@ const Minecraft = () => {
             >
               It was around Secondary 3 where I started teaching myself Python
               through online tutorials, building out many small projects along
-              the way..
+              the way.
             </h1>
           </div>
         </Scene>
@@ -26,7 +26,7 @@ const Minecraft = () => {
           <div id="minecraft-img-wrapper">
             <div className="minecraft-img lg:ml-12 ml-10">
               <img src={code} alt="minecraft code" className=" lg:ml-0" />
-              <p className="description font-mono text-xl text-center">
+              <p className="description  text-xl text-center">
                 a simple script I wrote to automate fishing in Minecraft
               </p>
             </div>

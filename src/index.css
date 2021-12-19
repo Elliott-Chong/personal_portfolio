@@ -19,7 +19,8 @@ body {
   position: absolute;
   background: white;
   width: 0.1rem;
-  height: 500vh;
+  /* height: 922vh; */
+  height: 104%;
   top: -20rem;
   transform: translateX(20%);
 }
@@ -38,6 +39,30 @@ body {
   bottom: 0;
   background-color: #0d0208;
   animation: typewriter var(--speed) steps(var(--length)) infinite 1s;
+}
+#contact {
+  margin-bottom: 4rem;
+  background-color: #0d0208;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+}
+
+#contact > :not(elle) {
+  --space: 0.5rem;
+  margin-top: var(--space);
+  margin-bottom: var(--space);
+}
+#social-icons {
+  display: flex;
+}
+.social-icon {
+  color: white;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 #typewriter-wrapper {
@@ -114,8 +139,11 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.caeser-img:nth-child(2) {
+  margin-left: 1rem;
+}
 .minecraft-img img {
-  height: 20rem;
+  width: 40vw;
 }
 
 #scratch-img-wrapper,
@@ -133,21 +161,71 @@ body {
   width: 40vw;
 }
 
+#finance-source,
+#cocktail-source,
+#dev-source {
+  margin-top: 0;
+}
+.finance-description,
+.dev-description,
+.cocktail-description {
+  margin-top: 1rem;
+  color: white;
+}
+
 .caeser-img iframe {
   width: 40vw;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   height: 40vh;
+}
+#finance-img-wrapper img,
+#dev-img-wrapper img,
+#cocktail-img-wrapper img {
+  width: 50vw;
+}
+#finance-info,
+#dev-info,
+#cocktail-info {
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+#finance-img-wrapper,
+#dev-img-wrapper,
+#cocktail-img-wrapper {
+  align-items: center;
+  display: flex;
+  margin-left: 3rem;
+}
+
+.learn-more {
+  color: #00ff41;
+}
+
+#end-aspiration {
+  margin-top: 10rem;
 }
 
 #aspiration,
 #scratch-img-wrapper,
 #caeser-img-wrapper,
 #caeser-wrapper,
+#cocktail-img-wrapper,
+#codewars-img-wrapper,
 #robotics-wrapper,
+#end-aspiration,
 #minecraft-img-wrapper,
 #scratch-wrapper,
+#codewars-wrapper,
+#finance-img-wrapper,
+#dev-wrapper,
+#dev-img-wrapper,
 #scratch-img,
 #minecraft-wrapper,
+#finance-wrapper,
+#cocktail-wrapper,
 #robotics-img {
   opacity: 0;
   transform: translateY(50px);
@@ -155,18 +233,45 @@ body {
 }
 
 #aspiration.fade-in,
+#codewars-img-wrapper.fade-in,
+#codewars-wrapper.fade-in,
+#dev-img-wrapper.fade-in,
+#dev-wrapper.fade-in,
 #caeser-img-wrapper.fade-in,
 #caeser-wrapper.fade-in,
 #minecraft-img-wrapper.fade-in,
+#cocktail-wrapper.fade-in,
+#cocktail-img-wrapper.fade-in,
 #scratch-img-wrapper.fade-in,
+#end-aspiration.fade-in,
 #scratch-wrapper.fade-in,
 #minecraft-wrapper.fade-in,
 #robotics-wrapper.fade-in,
+#finance-img-wrapper.fade-in,
+#finance-wrapper.fade-in,
 #robotics-img.fade-in {
   opacity: 1;
   transform: translateY(0);
 }
 
+#codewars-img-wrapper {
+  display: flex;
+  margin-left: 3rem;
+}
+#codewars-img-wrapper img {
+  width: 38vw;
+}
+
+#codewars-info {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#codewars-info p {
+  text-align: left;
+}
 #nav {
   position: fixed;
   min-width: 100vw;
@@ -203,7 +308,7 @@ body {
   color: black;
   margin-top: 1.5rem;
 }
-
+/* phone */
 @media (max-width: 800px) {
   .space-elle {
     margin-bottom: 3rem;
@@ -222,7 +327,7 @@ body {
     width: 20px;
   }
 
-  #timeline-circle {
+  #timeline::before #timeline-circle {
     width: 15px;
     height: 15px;
   }
@@ -248,6 +353,29 @@ body {
 
   #scratch-img-wrapper {
     display: block;
+  }
+
+  #finance-img-wrapper,
+  #dev-img-wrapper,
+  #cocktail-img-wrapper {
+    display: block;
+    margin-left: 2rem;
+  }
+  #finance-img-wrapper img,
+  #dev-img-wrapper img,
+  #cocktail-img-wrapper img {
+    width: 100%;
+  }
+
+  #finance-source,
+  #dev-source,
+  #cocktail-source {
+    margin-top: 1rem;
+  }
+  #finance-info,
+  #dev-info,
+  #cocktail-info {
+    margin-left: 0;
   }
 
   .scratch-img img {
@@ -285,7 +413,7 @@ body {
   }
 
   .minecraft-img img {
-    height: 10rem;
+    width: 100%;
   }
 
   #caeser-img-wrapper {
@@ -303,5 +431,21 @@ body {
 
   .caeser-img iframe {
     display: none;
+  }
+
+  #contact {
+    font-size: 1.2rem;
+  }
+
+  #codewars-img-wrapper img {
+    width: 80vw;
+    margin-top: 1rem;
+  }
+
+  #codewars-img-wrapper {
+    display: block;
+  }
+  #codewars-info {
+    margin-left: 0;
   }
 }

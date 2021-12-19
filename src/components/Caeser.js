@@ -1,7 +1,6 @@
 import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import code from "../images/caeser-code.png";
-import fish from "../images/caeser-code.png";
 import Button from "./Button";
 
 const Caeser = () => {
@@ -28,7 +27,7 @@ const Caeser = () => {
           <div id="caeser-img-wrapper">
             <div className="caeser-img">
               <img src={code} alt="caeser code" className=" lg:ml-0" />
-              <p className="description font-mono text-xl text-center">
+              <p className="description text-xl text-center">
                 My first caesar cipher script written in C
               </p>
               <Button id="caeser-button">
@@ -43,9 +42,14 @@ const Caeser = () => {
             </div>
             <div className="caeser-img ">
               <iframe
+                title="Caesar Cipher REPLIT"
                 src="https://replit.com/@ElliottChong/Caesar-Cipher?embed=true"
                 frameborder="0"
               ></iframe>
+              <p className="description text-xl text-center">
+                Click the green play button at the bottom right corner to try
+                out the code!
+              </p>
             </div>
           </div>
         </Scene>
