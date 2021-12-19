@@ -448,4 +448,46 @@ body {
   #codewars-info {
     margin-left: 0;
   }
+  #aspiration,
+  #scratch-img-wrapper,
+  #caeser-img-wrapper,
+  #caeser-wrapper,
+  #cocktail-img-wrapper,
+  #codewars-img-wrapper,
+  #robotics-wrapper,
+  #end-aspiration,
+  #minecraft-img-wrapper,
+  #scratch-wrapper,
+  #codewars-wrapper,
+  #finance-img-wrapper,
+  #dev-wrapper,
+  #dev-img-wrapper,
+  #scratch-img,
+  #minecraft-wrapper,
+  #finance-wrapper,
+  #cocktail-wrapper,
+  #robotics-img {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  #aspiration.fade-in,
+  #codewars-img-wrapper.fade-in,
+  #codewars-wrapper.fade-in,
+  #dev-img-wrapper.fade-in,
+  #dev-wrapper.fade-in,
+  #caeser-img-wrapper.fade-in,
+  #caeser-wrapper.fade-in,
+  #minecraft-img-wrapper.fade-in,
+  #cocktail-wrapper.fade-in,
+  #cocktail-img-wrapper.fade-in,
+  #scratch-img-wrapper.fade-in,
+  #end-aspiration.fade-in,
+  #scratch-wrapper.fade-in,
+  #minecraft-wrapper.fade-in,
+  #robotics-wrapper.fade-in,
+  #finance-img-wrapper.fade-in,
+  #finance-wrapper.fade-in,
+  #robotics-img.fade-in {
+    opacity: 1;
+  }
 }

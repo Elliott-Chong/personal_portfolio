@@ -1,9 +1,5 @@
 import React from "react";
 
-// function sleep(ms) {
-//   return new Promise((resolve) => setTimeout(resolve, ms));
-// }
-
 const Typewriter = () => {
   const typewriterRef = React.useRef();
   const typewriterLoops = React.useMemo(
