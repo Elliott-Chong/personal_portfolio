@@ -31,7 +31,7 @@ const Scratch = () => {
               src="https://sulfurous.aau.at/html/app.html?id=90753321&turbo=false&full-screen=false&aspect-x=&aspect-y=&resolution-x=480&resolution-y=360"
               frameborder="0"
             ></iframe>
-            <p className="description hidden lg:block">
+            <p className="description hidden lg:inline">
               Try out the game! Press P to start, wasd and arrow keys to move
               around.
             </p>
@@ -54,7 +54,7 @@ const Scratch = () => {
               src="https://sulfurous.aau.at/html/app.html?id=215637415&turbo=true&full-screen=false&aspect-x=&aspect-y=&resolution-x=480&resolution-y=360"
               frameborder="0"
             ></iframe>
-            <p className="description hidden lg:block">
+            <p className="description hidden lg:inline">
               Try out the game! Press start to begin.
             </p>
             <Button>
