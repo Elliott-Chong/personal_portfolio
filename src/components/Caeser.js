@@ -46,7 +46,7 @@ const Caeser = () => {
                 src="https://replit.com/@ElliottChong/Caesar-Cipher?embed=true"
                 frameborder="0"
               ></iframe>
-              <p className="description text-xl text-center">
+              <p className="description text-xl text-center hidden lg:inline">
                 Click the green play button at the bottom right corner to try
                 out the code!
               </p>

@@ -41,8 +41,8 @@ const Finance = () => {
             <p className="finance-description">
               This project truly opened my eyes to the world of web development.
               It taught me the use of external REST APIs to utilise other
-              people's data in my own project, and also taught me the use SQL to
-              manage data in my database.{" "}
+              people's data in my own project, and also taught me the use of SQL
+              to manage data in my database.{" "}
               <Link className="learn-more ml-2" to="/projects#github-users">
                 learn more...
               </Link>
