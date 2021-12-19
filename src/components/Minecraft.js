@@ -6,7 +6,7 @@ const Minecraft = () => {
   return (
     <>
       <Controller>
-        <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+        <Scene classToggle="fade-in" triggerHook={0.8}>
           <div id="minecraft-wrapper">
             <h1
               id="minecraft-text"

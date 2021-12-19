@@ -4,7 +4,7 @@ import image from "../images/robotics.png";
 const Robotics = () => {
   return (
     <Controller>
-      <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+      <Scene classToggle="fade-in" triggerHook={0.8}>
         <div id="robotics-wrapper">
           <h1
             id="robotics-text"

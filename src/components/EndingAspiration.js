@@ -5,7 +5,7 @@ const EndingAspiration = () => {
   return (
     <>
       <Controller>
-        <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+        <Scene classToggle="fade-in" triggerHook={0.8}>
           <div id="end-aspiration">
             <h1 className="ml-5 text-2xl lg:ml-12 lg:text-5xl font-mono relative text-terminalGreen">
               Of course, I shall continue to strive to improve myself and

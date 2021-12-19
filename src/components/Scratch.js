@@ -7,7 +7,7 @@ import Button from "./Button";
 const Scratch = () => {
   return (
     <Controller>
-      <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+      <Scene classToggle="fade-in" triggerHook={0.8}>
         <div id="scratch-wrapper">
           <h1
             id="scratch-text"

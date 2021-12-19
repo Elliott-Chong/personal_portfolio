@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Finance = () => {
   return (
     <Controller>
-      <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+      <Scene classToggle="fade-in" triggerHook={0.8}>
         <div id="finance-wrapper">
           <h1
             id="finance-text"

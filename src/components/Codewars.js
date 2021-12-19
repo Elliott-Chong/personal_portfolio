@@ -7,7 +7,7 @@ import codewarsSolution from "../images/codewars-solution.png";
 const Codewars = () => {
   return (
     <Controller>
-      <Scene classToggle="fade-in" indicators={true} triggerHook={0.8}>
+      <Scene classToggle="fade-in" triggerHook={0.8}>
         <div id="codewars-wrapper">
           <h1
             id="codewars-text"
