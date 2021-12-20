@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
+import { BsInstagram } from "react-icons/bs";
+import { FiLinkedin } from "react-icons/fi";
 
 const Navbar = () => {
+  // const hamRef = React.useRef();
+  // const hamClick = () => {};
   return (
-    <nav className="flex  px-10 p-4 items-center " id="nav">
+    <nav className="flex  px-10 item-center " id="nav">
       <div>
         <Link
           to="/"
@@ -12,21 +17,46 @@ const Navbar = () => {
           elliott.Chong()
         </Link>
       </div>
-
-      <div className="lg:hidden ml-auto cursor-pointer" id="ham-wrapper">
-        <div className="ham   bg-white"></div>
-        <div className="ham   bg-white"></div>
-        <div className="ham   bg-white"></div>
+      <div id="social-icons-nav" className="ml-auto hidden lg:flex">
+        <div>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Elliott-Chong"
+          >
+            <FaGithub className="social-icon" />
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.instagram.com/el.lebelle/"
+          >
+            <BsInstagram className="social-icon" />
+          </a>
+        </div>
+        <div>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/elliott-chong-566a98224/"
+          >
+            <FiLinkedin className="social-icon" />
+          </a>
+        </div>
       </div>
 
-      <div className="links font-mono text-terminalGreen font-medium text-3xl ml-auto">
-        <Link to="/about" className="lg:ml-8 hidden lg:inline">
-          .about()
-        </Link>
-        <Link to="/projects" className="lg:ml-8 hidden lg:inline">
-          .projects()
-        </Link>
-      </div>
+      {/* <div
+        className="lg:hidden ml-auto cursor-pointer"
+        id="ham-wrapper"
+        ref={hamRef}
+        onClick={hamClick}
+      >
+        <div className="ham   bg-white"></div>
+        <div className="ham   bg-white"></div>
+        <div className="ham   bg-white"></div>
+      </div> */}
     </nav>
   );
 };

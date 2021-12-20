@@ -60,6 +60,9 @@ body {
 #social-icons {
   display: flex;
 }
+#social-icons-nav {
+  display: flex;
+}
 .social-icon {
   color: white;
   font-size: 2rem;
@@ -278,8 +281,10 @@ body {
   position: fixed;
   min-width: 100vw;
   top: 0;
+  align-items: center;
   z-index: 100;
-
+  /* padding: 1rem 0; */
+  padding: 2rem 2.5rem 3rem 2.5rem;
   background: linear-gradient(
     180deg,
     rgba(13, 2, 8),
@@ -288,17 +293,6 @@ body {
     transparent
   );
 }
-/* 
-#nav::before {
-  content: "";
-  bottom: -3rem;
-  left: 0;
-  position: absolute;
-  right: 0;
-  height: 3rem;
-  background-color: red;
-  background: linear-gradient(180deg, rgba(13, 2, 8), transparent);
-} */
 
 #container {
   margin-left: 20rem;
@@ -450,6 +444,9 @@ body {
   #codewars-info {
     margin-left: 0;
   }
+  #social-icons-nav {
+    display: none;
+  }
   #aspiration,
   #scratch-img-wrapper,
   #caeser-img-wrapper,
@@ -491,5 +488,8 @@ body {
   #finance-wrapper.fade-in,
   #robotics-img.fade-in {
     opacity: 1;
+  }
+  #nav {
+    justify-content: center;
   }
 }

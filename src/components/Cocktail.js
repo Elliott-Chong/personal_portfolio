@@ -2,7 +2,6 @@ import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import cocktail from "../images/github-users.png";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 
 const Cocktail = () => {
   return (
@@ -53,9 +52,6 @@ const Cocktail = () => {
               I learnt how to utilize external NPM libraries to help accomplish
               complex features with ease. e.g. Using FusionCharts to make
               beautiful charts to display user data.{" "}
-              <Link className="learn-more ml-2" to="/projects#github-users">
-                learn more...
-              </Link>
             </p>
           </div>
         </div>

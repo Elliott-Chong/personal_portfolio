@@ -2,7 +2,6 @@ import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
 import finance from "../images/finance.png";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 
 const Finance = () => {
   return (
@@ -43,9 +42,6 @@ const Finance = () => {
               It taught me the use of external REST APIs to utilise other
               people's data in my own project, and also taught me the use of SQL
               to manage data in my database.{" "}
-              <Link className="learn-more ml-2" to="/projects#github-users">
-                learn more...
-              </Link>
             </p>
           </div>
         </div>

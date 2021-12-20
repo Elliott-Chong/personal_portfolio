@@ -13,27 +13,38 @@ import Cocktail from "./components/Cocktail";
 import Codewars from "./components/Codewars";
 import DevConnector from "./components/DevConnector";
 import EndingAspiration from "./components/EndingAspiration";
+import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <>
       <Navbar />
-      <div className="lg:m-16 m-12 ml-12 flex" id="container">
-        <Timeline />
-        <div id="content">
-          <Typewriter />
-          <Aspiration />
-          <Robotics />
-          <Scratch />
-          <Minecraft />
-          <Caeser />
-          <Finance />
-          <Cocktail />
-          <Codewars />
-          <DevConnector />
-          <EndingAspiration />
-        </div>
-      </div>
-      <Contact />
+      <Switch>
+        <Route path="/" exact>
+          <div className="lg:m-16 m-12 ml-12 flex" id="container">
+            <Timeline />
+            <div id="content">
+              <Typewriter />
+              <Aspiration />
+              <Robotics />
+              <Scratch />
+              <Minecraft />
+              <Caeser />
+              <Finance />
+              <Cocktail />
+              <Codewars />
+              <DevConnector />
+              <EndingAspiration />
+            </div>
+          </div>
+          <Contact />
+        </Route>
+        <Route path="/about" exact>
+          about
+        </Route>
+        <Route path="/projects" exact>
+          projects
+        </Route>
+      </Switch>
     </>
   );
 }

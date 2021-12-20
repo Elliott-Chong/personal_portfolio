@@ -2,7 +2,6 @@ import React from "react";
 import Button from "./Button";
 import { Controller, Scene } from "react-scrollmagic";
 import dev from "../images/devconnector.png";
-import { Link } from "react-router-dom";
 
 const DevConnector = () => {
   return (
@@ -52,9 +51,6 @@ const DevConnector = () => {
               backend API endpoints with expressJS and MongoDB, and also the
               frontend with ReactJS. It taught me important concepts such as
               JWTs for authentication and password encryption.{" "}
-              <Link className="learn-more ml-2" to="/projects#github-users">
-                learn more...
-              </Link>
             </p>
           </div>
         </div>
