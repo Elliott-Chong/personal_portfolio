@@ -47,8 +47,8 @@ const DevConnector = () => {
               course teaching full stack web development.
             </p>
             <p className="dev-description">
-              This was my first full stack course, builing from scratch both the
-              backend API endpoints with expressJS and MongoDB, and also the
+              This was my first full stack course, building from scratch both
+              the backend API endpoints with expressJS and MongoDB, and also the
               frontend with ReactJS. It taught me important concepts such as
               JWTs for authentication and password encryption.{" "}
             </p>

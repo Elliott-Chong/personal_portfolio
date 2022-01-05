@@ -14,6 +14,7 @@ import Codewars from "./components/Codewars";
 import DevConnector from "./components/DevConnector";
 import EndingAspiration from "./components/EndingAspiration";
 import { Switch, Route } from "react-router-dom";
+import Website from "./components/Website";
 function App() {
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
               <Cocktail />
               <Codewars />
               <DevConnector />
+              <Website />
               <EndingAspiration />
             </div>
           </div>
