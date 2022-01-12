@@ -15,6 +15,7 @@ import DevConnector from "./components/DevConnector";
 import EndingAspiration from "./components/EndingAspiration";
 import { Switch, Route } from "react-router-dom";
 import Website from "./components/Website";
+import SportBuddy from "./components/SportBuddy";
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
               <Cocktail />
               <Codewars />
               <DevConnector />
+              <SportBuddy />
               <Website />
               <EndingAspiration />
             </div>
