@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "CI= craco start TAILWIND_MODE=watch",
-    "build": "CI=false craco build",
+    "build": "rm -rf '/home/elliott/deploys/personal_portfolio/build/' && BUILD_PATH='/home/elliott/deploys/personal_portfolio/build' craco build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
