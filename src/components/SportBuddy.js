@@ -34,7 +34,7 @@ const SportBuddy = () => {
             </Button>
             <Button>
               <a
-                href="https://sportbuddy-elle.netlify.app/"
+                href="https://sportbuddy.elliottchong.com"
                 rel="noreferrer"
                 target="_blank"
               >
