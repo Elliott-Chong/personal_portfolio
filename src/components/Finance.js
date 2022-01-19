@@ -32,7 +32,6 @@ const Finance = () => {
                 Link to Source Code
               </a>
             </Button>
-            <Button>Link to Project</Button>
             <p className="finance-description">
               CS50 Finance, an assignment part of the course that taught me the
               basics of web programming.

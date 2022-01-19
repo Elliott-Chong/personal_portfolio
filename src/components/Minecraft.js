@@ -1,7 +1,7 @@
 import React from "react";
 import { Controller, Scene } from "react-scrollmagic";
-import code from "../images/minecraft-code.png";
-import fish from "../images/minecraft-fish.png";
+import code from "../images/whatsbus.png";
+import Button from "./Button";
 const Minecraft = () => {
   return (
     <>
@@ -27,11 +27,29 @@ const Minecraft = () => {
             <div className="minecraft-img lg:ml-12 ml-10">
               <img src={code} alt="minecraft code" className=" lg:ml-0" />
               <p className="description  text-xl text-center">
-                a simple script I wrote to automate fishing in Minecraft
+                A script I wrote that pulled data from LTA's bus arrival API and
+                updated users on WhatsApp in real time.
               </p>
             </div>
-            <div className="minecraft-img lg:ml-12 ml-10">
-              <img src={fish} alt="minecraft code" className="lg:ml-0" />
+            <div className="mc-source">
+              <Button>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/Elliott-Chong/whatsbus"
+                >
+                  Link to Source Code
+                </a>
+              </Button>
+              <p className="finance-description">
+                I wrote this program primarily to solve my own problem of always
+                missing the bus.
+              </p>
+              <p className="finance-description">
+                Instead of manually checking a bus app, the script would
+                automatically remind me of bus timings so that I can plan my
+                travels better.
+              </p>
             </div>
           </div>
         </Scene>
