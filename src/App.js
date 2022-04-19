@@ -6,6 +6,8 @@ import Aspiration from "./components/Aspiration";
 import Robotics from "./components/Robotics";
 import Minecraft from "./components/Minecraft";
 import Finance from "./components/Finance";
+import Scratch from "./components/Scratch";
+import Caeser from "./components/Caeser";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Cocktail from "./components/Cocktail";
