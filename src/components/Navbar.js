@@ -9,13 +9,20 @@ const Navbar = () => {
   // const hamClick = () => {};
   return (
     <nav className="flex  px-10 item-center " id="nav">
-      <div>
+      <div className='space-x-10'>
         <Link
-          to="/"
+          to='/'
           className="logo font-mono text-terminalGreen font-medium md:text-3xl text-2xl"
         >
           elliott.Chong()
         </Link>
+        <Link
+          to="/projects"
+          className="font-mono text-white hidden md:inline font-medium hover:text-gray-400 md:text-3xl text-2xl"
+        >
+          Projects
+        </Link>
+
       </div>
       <div id="social-icons-nav" className="ml-auto hidden lg:flex">
         <div>

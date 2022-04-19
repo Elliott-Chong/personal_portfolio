@@ -8,7 +8,7 @@ const Aspiration = () => {
         <Scene classToggle="fade-in" triggerHook={0.8}>
           <h1
             id="aspiration"
-            className=" space-elle ml-5 text-2xl lg:ml-12 lg:text-5xl font-mono relative text-terminalGreen"
+            className="space-elle ml-5 text-2xl lg:ml-12 lg:text-5xl font-mono relative text-terminalGreen"
           >
             An aspiring full-stack developer with a passion for learning.
           </h1>
